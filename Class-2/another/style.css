@@ -1,0 +1,43 @@
+/* header section styling */
+.head{
+    height: 200px;
+    background-color: red;
+}
+
+/* main content styling */
+.main{
+    height: 500px;
+    background-color: green;
+
+}
+.left{
+    height: 30%;
+    width: 29.33%;
+    background-color: yellow;
+    float: left;
+    margin:2%;
+}
+
+.midle{
+    height: 30%;
+    width: 29.33%;
+    background-color: aqua;
+    float: left;
+    margin:2%;
+}
+
+.right{
+    height: 30%;
+    width: 29.33%;
+    background-color: blue;
+    float: right;
+    margin:2%;
+
+}
+
+/* footer section styling */
+.footer{
+    height: 100px;
+    background-color: red;
+
+}
