@@ -1,0 +1,107 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Portfolio Personal Website
+	Template URL: http://www.abm.com
+	Description: Personal Website
+	Author: Md Raisul Islam
+	Author URL: http://www.ab-majid.info
+	License: GNU General Public 
+	Version: 2020.0.1
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+a, 
+p,
+ul{
+	margin: 0;
+	text-decoration: none;
+}
+p{
+	color: #848789;
+	line-height: 30px;
+}
+
+body{
+	margin:0; 
+	padding: 0;
+}
+/************ Header Area ************/
+.myNav{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.span{
+	color:#ff2f00;
+}
+.banner{
+	background-image: url('images/head.png');
+	height: 90vh;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.mybtn{
+	background-color: #ff2f00;
+	color: white;
+	text-transform: capitalize;
+}
+
+/************** 2. about Area ************************/
+.head h4{
+	position: relative;
+}
+.head h4::after{
+	content: "";
+	clear: both;
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #ff2f00;
+	position: absolute;
+	left: 49.5%;
+	bottom: -25px;
+}
+.head hr{
+	border: none;
+	height: 4px;
+	background-color: #ff2f00;
+}
+.about{
+	position: relative;
+}
+.about .social{
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.about .social ul li a{
+	padding: 4px 7px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.about .social ul li a:hover{
+	background-color: white;
+	color: rgba(0, 0, 0) !important;
+
+}
